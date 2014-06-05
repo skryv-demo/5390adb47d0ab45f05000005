@@ -10,8 +10,12 @@
         "overlijden": {
             "selectedChoices": {}
         },
-        "etniciteit_vader": {},
-        "etniciteit_moeder": {},
+        "etniciteit_vader": {
+            "selectedChoice": "Kaukasisch"
+        },
+        "etniciteit_moeder": {
+            "selectedChoice": "Kaukasisch"
+        },
         "geboortedatum": "Thu Oct 10 2002 00:00:00 GMT+0200 (CEST)",
         "datum_van_de_eerste_insulinetoediening": "Wed Dec 18 2013 00:00:00 GMT+0100 (CET)",
         "patient_niss": 2101020722,
@@ -23,14 +27,28 @@
             "taalproblemen": {
                 "selectedChoices": {}
             },
-            "puberteitprepuberteit": {},
-            "insulineschema": {}
+            "puberteitprepuberteit": {
+                "selectedChoice": "Puberteit"
+            },
+            "insulineschema": {
+                "selectedChoice": "Insulinepomp"
+            },
+            "datum_van_de_meest_recente_consultatie": "Tue Dec 24 2013 00:00:00 GMT+0100 (CET)",
+            "de_patient_was_gedurende_het_ganse_kalenderjaar_in_behandeling_bij_dit_centrum": false
         },
         "metingen": {
-            "lengte": {},
-            "gewicht": {},
-            "bloeddruk": {},
-            "hba1c": {}
+            "lengte": {
+                "lengte_cm": 130
+            },
+            "gewicht": {
+                "gewicht_kg": 40
+            },
+            "bloeddruk": {
+                "systolische_bloeddruk_mmhg": 120,
+                "diastolische_bloeddruk_mmhg": 100
+            },
+            "hba1c": {},
+            "insulinedosis_iedag": 20
         },
         "screenings": {
             "coeliakie": {
